@@ -1,4 +1,4 @@
-class Vex(object):
+class Vax(object):
 
     def __init__(self, seed):
         self.a = 69069
@@ -12,13 +12,13 @@ class Vex(object):
         self.seed = ((self.a*self.seed)+self.c) % self.m
         return self.seed
 
-v = Vex(6)
+v = Vax(6)
 
 pattern = []
 while(True):
-    val = v.get()
-    if val%36 in pattern:
+    val = v.get()%36
+    if val in pattern:
         break
-    pattern.append(val%36)
+    pattern.append(val)
         
 print pattern
