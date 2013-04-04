@@ -1,4 +1,4 @@
-Level 1:
+## Level 1:
 
 I spent most of my time in level 1 learning about LCG and in particular a function called MTH$RANDOM.  I toyed with altering the math inside of the function by changing the value of m to 36 but got crazy results.  I settled on % 36 meaning do modulos 36 on the MTH$RANDOM return value.  
 
@@ -7,12 +7,12 @@ The math was straight forward, but since I didn't know what an LCG was (I just k
 Seeding the Vax algorithm with 6 will return the cyclic pattern of the roulette machine.  The game records me there for over 5 hours but I made dinner and did other unrelated work in between.  I'd say I spend roughly 60 minutes working on the problem.  90 max.
 
 
-Level 2:
+## Level 2:
 
 I spent fighting the computer... because I had faulty logic.  My logic happened to coincide closely with the solution because I was counting the number of opened and closed containers and the solution was near the edge.
 I found the correct solution by putting open symbols on a stack and popping a symbol off when I found a close symbol.  If the symbols didn't match I knew I found a solution.  My index was spot on this time.  I took out the new lines when copying the input to my python script, but I added a .replace("\n", "") to show how I'd have dealt with the new lines.
 
-Level 3: (identical to level3.md)
+## Level 3: (identical to level3.md)
 
 I just thought this one through.
 
